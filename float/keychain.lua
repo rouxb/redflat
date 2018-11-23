@@ -192,7 +192,7 @@ function keychain:hide()
 	self.active = nil
 	self.parents = {}
 	self.sequence = ""
-	redtip:remove_pack()
+	-- redtip:remove_pack()
 end
 
 -- End
