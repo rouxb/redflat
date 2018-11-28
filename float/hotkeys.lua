@@ -277,10 +277,10 @@ end
 -- Remove current keypack
 --------------------------------------------------------------------------------
 function hotkeys:remove_pack()
-	table.remove(self.keypack)
-	self.title:set_text(self.keypack[#self.keypack].name .. " hotkeys")
-	self.wibox:geometry(self.keypack[#self.keypack].geometry)
-	self:highlight()
+	-- table.remove(self.keypack)
+	-- self.title:set_text(self.keypack[#self.keypack].name .. " hotkeys")
+	-- self.wibox:geometry(self.keypack[#self.keypack].geometry)
+	-- self:highlight()
 end
 
 -- Highlight key tip
